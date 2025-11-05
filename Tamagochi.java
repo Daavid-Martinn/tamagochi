@@ -50,6 +50,7 @@ public class Tamagochi implements Runnable {
     }
 
     public synchronized void alimentar() {
+    	
         if (vivo && !ocupado) {
             ocupado = true;
             System.out.println(nombre + ": Comienzo a comer ");
